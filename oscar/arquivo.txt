@@ -1,3 +1,12 @@
 # Alterações Aula 4
 # Este arquivo foi criado para registrar as alterações realizadas na aula 4.
 # Adicione aqui as informações ou mudanças feitas durante a aula.
+
+- Cria branch
+ - Faz as alterações
+ - Faz o stage e commit
+ - Abre o PR - Pull Request
+ - Revisão
+ - Faz o Deploy
+ - Faz o Merge
+ - Deleta a branch
