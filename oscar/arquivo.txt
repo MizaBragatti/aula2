@@ -10,3 +10,5 @@
  - Faz o Deploy
  - Faz o Merge
  - Deleta a branch
+
+ revisar Aula
