@@ -20,5 +20,6 @@ seguimos
 Mais uma linha 18
 
 Atualização 06/05/2025  
-Adilson Theodoro 
 
+
+Oscar carvalho aula 06/05
