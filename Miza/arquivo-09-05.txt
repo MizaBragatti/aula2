@@ -1,0 +1,6 @@
+Arquivo Com as anotações do Miza
+
+Arquivo Gerado no dia 09/05/2025
+
+Aprendendo sobre o Undo
+Revert
