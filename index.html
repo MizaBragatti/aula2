@@ -4,6 +4,8 @@
 <head>
     <title>Hello World!</title>
     <link rel="stylesheet" href="bluestyle.css">
+    <meta charset="UTF-8">
+    <title>Carrossel HTML Puro</title>
 </head>
 
 <body>
@@ -13,7 +15,32 @@
     <p>This is the first file in my new Git Repo.</p>
     <p>This line is here to show how merging works.</p>
     <div><img src="img_hello_git.jpg" alt="Hello Git" style="width:100%;max-width:640px"></div>
-    <p>Nova linha.</p>
+
+    
+    <!-- Seletores de slide -->
+    <input type="radio" name="carrossel" id="slide1" checked>
+    <input type="radio" name="carrossel" id="slide2">
+    <input type="radio" name="carrossel" id="slide3">
+
+    <!-- Slides -->
+    <div>
+        <div>
+            <label for="slide3">❮</label>
+            <img src="https://via.placeholder.com/400x200?text=Slide+1" alt="Slide 1">
+            <label for="slide2">❯</label>
+        </div>
+        <div>
+            <label for="slide1">❮</label>
+            <img src="https://via.placeholder.com/400x200?text=Slide+2" alt="Slide 2">
+            <label for="slide3">❯</label>
+        </div>
+        <div>
+            <label for="slide2">❮</label>
+            <img src="https://via.placeholder.com/400x200?text=Slide+3" alt="Slide 3">
+            <label for="slide1">❯</label>
+        </div>
+        <h1> Olá </h1>
+    </div>
 
 </body>
 
