@@ -1,0 +1,5 @@
+git revert HEAD - volta o ultimo commit
+git revert <commit> - volta para o commit especifico
+git revert HEAD~2 - volta para um commit mais antigo
+git revert --no-edit - pula a mensagem de edição
+git log --oneline - mostra o historico de commits
