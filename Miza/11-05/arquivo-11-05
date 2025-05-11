@@ -1,5 +1,15 @@
+REVERT:
+
 git revert HEAD - volta o ultimo commit
 git revert <commit> - volta para o commit especifico
 git revert HEAD~2 - volta para um commit mais antigo
 git revert --no-edit - pula a mensagem de edição
+git log --oneline - mostra o historico de commits
+
+RESET:
+
+git reset --soft - Move HEAD para o commit, mantendo as mudanças os stages
+git reset --mixed - Move o HEAD para o commit, removendo as mudanças dos stages (padrão)
+git reset --hard - Move HEAD para o commit, descartando todas mudanças
+git reset <arquivo> - Desmonta o arquivo
 git log --oneline - mostra o historico de commits
