@@ -20,3 +20,15 @@ Mofica as informações do commit mais recente
  - Erros de digitação
  - Adiciona/Remove arquivos esquecidos
  - Atualiza mensagem do commit
+
+Altera a descrição do commit:
+
+git commit --amend -m "Corrected commit message"
+
+Incluir arquivo:
+git add forgotten.txt
+git commit --amend
+
+Remover arquivo:
+git reset HEAD^ -- unwanted.txt
+git commit --amend
