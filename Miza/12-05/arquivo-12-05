@@ -1,0 +1,15 @@
+REBASE
+
+- Básico:
+ - Para mover os arquivos da branch principal para a branch atual/corrente
+
+- Interativo:
+ - Abre o editor, possibilitando:
+    - pick      -> Manter os commits
+    - squash    -> Combinar os commits juntos
+    - edit      -> Pausar para modificar um commit
+    - reword    -> Mudar somente a mensagem de um commit
+ - Caso haja conflito:
+    - continue  -> Continuar o processo do rebase
+    - abort     -> Voltar para antes do rebase
+    - skip      -> Pula o commit que está conflitando
